@@ -5,6 +5,12 @@ on:
     branches:
       - main
 
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -34,5 +40,5 @@ jobs:
         with:
           folder: forest_of_longing/build
           branch: gh-pages
-          target-folder: forest_of_longing
-          
+          token: ${{ secrets.GITHUB_TOKEN }}
+          clean: true
