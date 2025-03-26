@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Forest of Longing – Shabdarth</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <div class="scene" id="scene1">
+      <h1>Forest of Longing</h1>
+      <p class="intro">In this forest of forgotten words, every path leads to a memory.</p>
+      <button onclick="goToScene('scene2')">Begin Your Journey</button>
+    </div>
+
+    <div class="scene hidden" id="scene2">
+      <h2>Bekhudi</h2>
+      <p>"Jisey hosh ki duniya bhaaye, woh bekhudi kya jaane?"</p>
+      <div class="card">
+        <h3>Bekhudi</h3>
+        <p>A blissful surrender; a state of forgetful ecstasy.</p>
+        <p><em>Origin:</em> Persian — 'bē' (without) + 'khudī' (self)</p>
+        <p><em>Song Line:</em> Hosh walon ko khabar kya, bekhudi kya cheez hai</p>
+        <div class="relic">💌 A love letter floating in the wind</div>
+      </div>
+      <button onclick="goToScene('scene3')">Next</button>
+    </div>
+
+    <div class="scene hidden" id="scene3">
+      <h2>Fizaayein</h2>
+      <p>"Kabhi socha hai… hawa sirf chalti nahi, yaadein bhi le jaati hai?"</p>
+      <div class="card">
+        <h3>Fizaayein</h3>
+        <p>Expansive winds, symbolic of changing atmospheres or emotions</p>
+        <p><em>Origin:</em> Arabic 'faḍāʼ' meaning 'open space'</p>
+        <p><em>Song Line:</em> Fizaayein bhi hoon main, hawaon jaisa</p>
+        <div class="relic">🌸 Petals forming a line from the song</div>
+      </div>
+      <button onclick="goToScene('scene4')">Next</button>
+    </div>
+
+    <div class="scene hidden" id="scene4">
+      <h2>Zulfon</h2>
+      <p>"Zulfon ki ghani chaon tale, kabhi dil ne aram paaya tha."</p>
+      <div class="card">
+        <h3>Zulfon</h3>
+        <p>Tresses; long flowing hair, symbolic of beauty or mystery</p>
+        <p><em>Origin:</em> Persian</p>
+        <p><em>Song Line:</em> Zulfon ki ghani chhaon mein, humne pana tha sukoon</p>
+        <div class="relic">🧣 A scarf tied to a tree branch, swaying</div>
+      </div>
+      <button onclick="goToScene('scene5')">Next</button>
+    </div>
+
+    <div class="scene hidden" id="scene5">
+      <h2>May-kashi</h2>
+      <p>"Yeh nashe ki baat nahi… yeh toh rooh ki pyaas hai."</p>
+      <div class="card">
+        <h3>May-kashi</h3>
+        <p>The act of drinking wine; metaphor for deep emotional surrender</p>
+        <p><em>Origin:</em> Persian — 'may' (wine) + 'kashi' (drawing out)</p>
+        <p><em>Song Line:</em> May-kashi mein dooba tha uski baaton ka nasha</p>
+        <div class="relic">🍷 A fragment of Rumi’s poetry about spiritual intoxication</div>
+      </div>
+      <button onclick="goToScene('scene1')">Return Home</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
