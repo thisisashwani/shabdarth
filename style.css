@@ -37,3 +37,27 @@ button {
 .hidden {
   display: none;
 }
+
+.floating-letter {
+  position: absolute;
+  left: -100px;
+  top: 200px;
+  font-size: 2rem;
+  animation: floatLetter 8s ease-in-out infinite;
+  opacity: 0.8;
+}
+
+@keyframes floatLetter {
+  0% {
+    transform: translateX(0) translateY(0) rotate(0deg);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translateX(300px) translateY(-50px) rotate(10deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(600px) translateY(-100px) rotate(-5deg);
+    opacity: 0;
+  }
+}
