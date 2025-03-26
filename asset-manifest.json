@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/shabdarth/forest_of_longing/static/css/main.f6e610ac.css",
+    "main.js": "/shabdarth/forest_of_longing/static/js/main.054bdbc4.js",
+    "index.html": "/shabdarth/forest_of_longing/index.html",
+    "main.f6e610ac.css.map": "/shabdarth/forest_of_longing/static/css/main.f6e610ac.css.map",
+    "main.054bdbc4.js.map": "/shabdarth/forest_of_longing/static/js/main.054bdbc4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6e610ac.css",
+    "static/js/main.054bdbc4.js"
+  ]
+}
